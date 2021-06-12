@@ -3,6 +3,7 @@
 
 
 show_debug_message(grv);
+show_debug_message(key_jump);
 
 //Get Player Input
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
