@@ -1,14 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-show_debug_message(grv);
-show_debug_message(key_jump);
-
 //Get Player Input
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
 
 //Calculate Movement
 var move = key_right - key_left;

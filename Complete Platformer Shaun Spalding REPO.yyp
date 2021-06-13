@@ -5,7 +5,9 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
+    {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":3,},
+    {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -51,7 +53,7 @@
     "IDEVersion": "2.3.1.542",
   },
   "resourceVersion": "1.4",
-  "name": "Complete Platformer Shaun Spalding",
+  "name": "Complete Platformer Shaun Spalding REPO",
   "tags": [],
   "resourceType": "GMProject",
 }
