@@ -2,8 +2,7 @@
 // You can write your code in this editor
 vsp = vsp + grv;
 
-//Horizontal Collision
-//Se o teu x + 4 pixeis estiver a tocar na parede
+//Horizontal Cor4 pixeis estiver a tocar na parede
 if (place_meeting(x+hsp,y,oWall))
 {
 	//Enquanto não esta a 1 pixel da parede
@@ -12,8 +11,8 @@ if (place_meeting(x+hsp,y,oWall))
 		//Soma mais um para fazer com que a colisão seija mais certa
 		x = x + sign(hsp);
 	}
-	//Certeficar que o Enemy n passa a parede
-	hsp = 0;
+	//Flipar o player quando toca na parede
+	hsp = -hsp;
 }
 
 x = x + hsp;
@@ -50,9 +49,11 @@ if (!place_meeting(x, y + 1, oWall))
 	
 }
 
-show_debug_message(hsp)
+//show_debug_message(hsp)
 
 
 //Flip Enemy
 if (hsp != 0) image_xscale = sign(hsp) * 2;
-//show_debug_message(sign(hsp));
+
+//show_debug_message(hp);
+show_debug_message(image_index);

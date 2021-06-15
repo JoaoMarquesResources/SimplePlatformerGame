@@ -23,6 +23,10 @@ if (done == 0)
 	//Vertical Collision
 	if (place_meeting(x,y+vsp,oWall))
 	{
+		if (vsp > 0)
+		{
+			done = 1;
+		}
 		while (!place_meeting(x,y+sign(vsp),oWall))
 		{
 			y = y + sign(vsp);
@@ -31,4 +35,8 @@ if (done == 0)
 	}
 
 	y = y + vsp;
+}
+if (image_index < 6)
+{
+	image_index += 0.4
 }
