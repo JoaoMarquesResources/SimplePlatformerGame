@@ -1,10 +1,27 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 //Get Player Input
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
+
+if (key_left) || (key_right) || (key_jump)
+{
+	controller = 0;
+}
+
+if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
+{
+	key_left = abs(min(gamepad_axis_value(0, gp_axislh), 0));
+	key_right = max(gamepad_axis_value(0, gp_axislh), 0);
+	controller = 1;
+}
+
+if (gamepad_button_check_pressed(0, gp_face1))
+{
+	key_jump = 1;
+	controller = 1;
+}
 
 //Calculate Movement
 var move = key_right - key_left;
@@ -66,7 +83,7 @@ if (!place_meeting(x, y + 1, oWall))
 	
 }
 
-show_debug_message(hsp)
+//show_debug_message(hsp)
 
 
 //Flip player

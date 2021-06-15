@@ -6,5 +6,7 @@ vsp = 0; //vertical speed
 grv = 0.3; //gravity
 walksp = 4; //walk speed
 
+controller = 0;
+
 image_xscale = 2;
 image_yscale = image_xscale;

@@ -56,4 +56,4 @@ if (!place_meeting(x, y + 1, oWall))
 if (hsp != 0) image_xscale = sign(hsp) * 2;
 
 //show_debug_message(hp);
-show_debug_message(image_index);
+//show_debug_message(image_index);
