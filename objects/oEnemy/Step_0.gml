@@ -8,10 +8,12 @@ if (place_meeting(x+hsp,y,oWall))
 	//Enquanto não esta a 1 pixel da parede
 	while (!place_meeting(x+sign(hsp),y,oWall))
 	{
-		//Soma mais um para fazer com que a colisão seija mais certa
+		//Soma mais um para fazer com que a colisão seja mais certa
 		x = x + sign(hsp);
 	}
 	//Flipar o player quando toca na parede
+	if (x >= 2016) hsp = -hsp;
+	
 	hsp = -hsp;
 }
 

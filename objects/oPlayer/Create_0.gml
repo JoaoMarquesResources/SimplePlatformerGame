@@ -7,6 +7,7 @@ grv = 0.3; //gravity
 walksp = 4; //walk speed
 
 controller = 0;
+hascontrol = true;
 
 image_xscale = 2;
 image_yscale = image_xscale;
