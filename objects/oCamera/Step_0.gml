@@ -12,12 +12,18 @@ if (instance_exists(follow))
 x += (xTo - x) / 25;
 y += (yTo - y) / 25;
 
-x = clamp(x, view_w_half, room_width - view_w_half)
-y = clamp(y, view_h_half, room_height - view_h_half)
+//Keep camera center inside room
+x = clamp(x, view_w_half + buff, room_width - view_w_half - buff);
+y = clamp(y, view_h_half + buff, room_height - view_h_half - buff);
+
+//Screen Shake
+x += random_range(-shake_remain, shake_remain);
+y += random_range(-shake_remain, shake_remain);
+// 6 - (1 / "TempoDuraScreenShake") * 6 = 6 | O  max entre 0 e 6 vai ser aplicado no screenshake, e em cada frame vai diminuir até chegar a 0 para parar o screen shake, por isso vai demorar 1 sec
+shake_remain = max(0, shake_remain-((1/shake_lenght) * shake_magnitude));
 
 //Update camera view
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
-
 
 show_debug_message(x);
 show_debug_message(view_h_half);

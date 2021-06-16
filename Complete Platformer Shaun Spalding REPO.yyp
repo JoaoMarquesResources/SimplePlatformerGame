@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":8,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
     {"id":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"order":7,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":2,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
