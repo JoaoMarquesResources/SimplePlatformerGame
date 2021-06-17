@@ -38,7 +38,7 @@ if (layer_exists("Trees"))
 //show_debug_message(shake_lenght); //10		//10
 //show_debug_message(shake_magnitude); //2		//2
 //show_debug_message(shake_remain); //0			//2
-
+//show_debug_message();
 /*
 1.80
 1.60
