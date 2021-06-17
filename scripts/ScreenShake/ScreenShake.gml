@@ -5,9 +5,9 @@ function ScreenShake(magnitude, frames){
 	{
 		if (argument0 > shake_remain)
 		{
-			shake_magnitude = argument0;
-			shake_remain = argument0;
-			shake_lenght = argument1;
+			shake_magnitude = argument0; //2
+			shake_remain = argument0; //2
+			shake_lenght = argument1; //10
 		}
 	}
 }

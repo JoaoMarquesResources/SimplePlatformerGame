@@ -25,5 +25,28 @@ shake_remain = max(0, shake_remain-((1/shake_lenght) * shake_magnitude));
 //Update camera view
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 
-show_debug_message(x);
-show_debug_message(view_h_half);
+if (layer_exists("Mountains"))
+{
+	layer_x("Mountains", x / 2);
+}
+
+if (layer_exists("Trees"))
+{
+	layer_x("Trees", x / 4);
+}
+
+//show_debug_message(shake_lenght); //10		//10
+//show_debug_message(shake_magnitude); //2		//2
+//show_debug_message(shake_remain); //0			//2
+
+/*
+1.80
+1.60
+1.40
+1.20
+1.00
+0.80
+0.60
+0.40
+0.20
+0.00

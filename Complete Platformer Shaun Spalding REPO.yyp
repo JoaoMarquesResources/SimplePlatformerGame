@@ -21,6 +21,8 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":6,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":6,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
+    {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":13,},
+    {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":12,},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},"order":9,},
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
