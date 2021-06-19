@@ -55,7 +55,8 @@ if (!place_meeting(x, y + 1, oWall))
 
 
 //Flip Enemy
-if (hsp != 0) image_xscale = sign(hsp) * 2;
+if (hsp != 0) image_xscale = sign(hsp) * (2 * size);
+image_yscale = 2 * size;
 
 //show_debug_message(hp);
 //show_debug_message(image_index);

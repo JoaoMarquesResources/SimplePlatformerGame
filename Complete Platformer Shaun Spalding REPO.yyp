@@ -27,6 +27,7 @@
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":13,},
     {"id":{"name":"sMountain","path":"sprites/sMountain/sMountain.yy",},"order":12,},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},"order":9,},
+    {"id":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"order":10,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
     {"id":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
