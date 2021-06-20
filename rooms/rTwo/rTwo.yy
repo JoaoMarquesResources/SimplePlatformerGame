@@ -15,6 +15,12 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":608.0,"y":320.0,"resourceVersion":"1.0","name":"inst_1FC8D381","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWallEnemy","path":"objects/oWallEnemy/oWallEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":32.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":928.0,"resourceVersion":"1.0","name":"inst_206BB5AF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWallEnemy","path":"objects/oWallEnemy/oWallEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":9.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":640.0,"resourceVersion":"1.0","name":"inst_359F2A3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWallEnemy","path":"objects/oWallEnemy/oWallEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":896.0,"resourceVersion":"1.0","name":"inst_7D199EE3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWallEnemy","path":"objects/oWallEnemy/oWallEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":864.0,"resourceVersion":"1.0","name":"inst_27C5CF36","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWallEnemy","path":"objects/oWallEnemy/oWallEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":29.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":832.0,"resourceVersion":"1.0","name":"inst_13972006","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oWallEnemy","path":"objects/oWallEnemy/oWallEnemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2016.0,"y":704.0,"resourceVersion":"1.0","name":"inst_643EA58F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Bullets","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oGun","path":"objects/oGun/oGun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":864.0,"resourceVersion":"1.0","name":"inst_73A0083D","tags":[],"resourceType":"GMRInstance",},
@@ -167,6 +173,12 @@
     {"name":"inst_511B55A3","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_68167EBE","path":"rooms/rTwo/rTwo.yy",},
     {"name":"inst_27A1FB01","path":"rooms/rTwo/rTwo.yy",},
+    {"name":"inst_206BB5AF","path":"rooms/rTwo/rTwo.yy",},
+    {"name":"inst_359F2A3","path":"rooms/rTwo/rTwo.yy",},
+    {"name":"inst_7D199EE3","path":"rooms/rTwo/rTwo.yy",},
+    {"name":"inst_27C5CF36","path":"rooms/rTwo/rTwo.yy",},
+    {"name":"inst_13972006","path":"rooms/rTwo/rTwo.yy",},
+    {"name":"inst_643EA58F","path":"rooms/rTwo/rTwo.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

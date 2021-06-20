@@ -3,10 +3,10 @@
 vsp = vsp + grv;
 
 //Horizontal Cor4 pixeis estiver a tocar na parede
-if (place_meeting(x+hsp,y,oWall))
+if (place_meeting(x+hsp,y,oWallEnemy))
 {
 	//Enquanto não esta a 1 pixel da parede
-	while (!place_meeting(x+sign(hsp),y,oWall))
+	while (!place_meeting(x+sign(hsp),y,oWallEnemy))
 	{
 		//Soma mais um para fazer com que a colisão seja mais certa
 		x = x + sign(hsp);
@@ -20,9 +20,9 @@ if (place_meeting(x+hsp,y,oWall))
 x = x + hsp;
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,oWall))
+if (place_meeting(x,y+vsp,oWallEnemy))
 {
-	while (!place_meeting(x,y+sign(vsp),oWall))
+	while (!place_meeting(x,y+sign(vsp),oWallEnemy))
 	{
 		y = y + sign(vsp);
 	}
@@ -33,7 +33,7 @@ y = y + vsp;
 
 //Animation
 //Animações de quando esta a subir e a descer no salto
-if (!place_meeting(x, y + 1, oWall))
+if (!place_meeting(x, y + 1, oWallEnemy))
 {
 	sprite_index = sEnemyA;
 	image_speed = 0; //Nao vai ter animação

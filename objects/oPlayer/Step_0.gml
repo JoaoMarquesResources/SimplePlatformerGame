@@ -82,6 +82,11 @@ if (!place_meeting(x, y + 1, oWall))
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0; //A sprite de subir e descer esta na mesma sprite, no frame 0 e 1
 }else
 {
+	if (sprite_index == sPlayerA) 
+	{
+		audio_sound_pitch(snLanding, choose(0.8, 1, 1.2));
+		audio_play_sound(snLanding, 4, false);
+	}
 	image_speed = 1;
 	if (hsp == 0)
 	{
