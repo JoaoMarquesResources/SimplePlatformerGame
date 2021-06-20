@@ -20,7 +20,7 @@ if (menu_control)
 	
 	if (keyboard_check_pressed(vk_enter))
 	{
-		menu_x_target = gui_widht + 200;
+		menu_x_target = gui_widht + 300;
 		menu_committed = menu_cursor;
 		ScreenShake(3, 30);
 		menu_control = false;
