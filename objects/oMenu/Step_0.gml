@@ -26,6 +26,21 @@ if (menu_control)
 		menu_control = false;
 		audio_play_sound(snDeath, 10, false);
 	}
+	
+	var mouse_y_gui = device_mouse_y_to_gui(0);
+	if (mouse_y_gui < menu_y) && (mouse_y_gui > menu_top)
+	{
+		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5);
+		
+		if (mouse_check_button_pressed(mb_left))
+		{
+			menu_x_target = gui_widht + 300;
+			menu_committed = menu_cursor;
+			ScreenShake(3, 30);
+			menu_control = false;
+			audio_play_sound(snDeath, 10, false);
+		}
+	}
 }
 
 if (menu_x > gui_widht + 150) && (menu_committed != -1) //Se a opção q selecionei foi para a esquerda e foi commited

@@ -2,6 +2,12 @@
 // You can write your code in this editor
 vsp = vsp + grv;
 
+//Dont walk off edges
+if (grounded) && (afraidofheights) && (!place_meeting(x + hsp, y + 1, oWall)) //Se estivermos quase a walk off edges
+{
+	hsp = -hsp; //flip;
+}
+
 //Horizontal Cor4 pixeis estiver a tocar na parede
 if (place_meeting(x+hsp,y,oWallEnemy))
 {
@@ -35,11 +41,13 @@ y = y + vsp;
 //Animações de quando esta a subir e a descer no salto
 if (!place_meeting(x, y + 1, oWallEnemy))
 {
+	grounded = false;
 	sprite_index = sEnemyA;
 	image_speed = 0; //Nao vai ter animação
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0; //A sprite de subir e descer esta na mesma sprite, no frame 0 e 1
 }else
 {
+	grounded = true;
 	image_speed = 1;
 	if (hsp == 0)
 	{
