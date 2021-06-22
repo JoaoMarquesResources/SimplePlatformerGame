@@ -12,6 +12,7 @@
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},"order":2,},
     {"id":{"name":"oPDead","path":"objects/oPDead/oPDead.yy",},"order":12,},
+    {"id":{"name":"sTitel","path":"sprites/sTitel/sTitel.yy",},"order":18,},
     {"id":{"name":"oSign","path":"objects/oSign/oSign.yy",},"order":14,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":10,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
