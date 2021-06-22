@@ -40,9 +40,11 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x, y+1, oWall)) && (key_jump)
+canjump -= 1;
+if (canjump > 0) && (key_jump)
 {
 	vsp = -7;
+	canjump = 0;
 }
 
 //Horizontal Collision
@@ -73,7 +75,7 @@ if (place_meeting(x,y+vsp,oWall))
 
 y = y + vsp;
 
-//Animation
+#region//Animation
 //Animações de quando esta a subir e a descer no salto
 if (!place_meeting(x, y + 1, oWall))
 {
@@ -82,6 +84,7 @@ if (!place_meeting(x, y + 1, oWall))
 	if (sign(vsp) > 0) image_index = 1; else image_index = 0; //A sprite de subir e descer esta na mesma sprite, no frame 0 e 1
 }else
 {
+	canjump = 10;
 	if (sprite_index == sPlayerA) 
 	{
 		audio_sound_pitch(snLanding, choose(0.8, 1, 1.2));
@@ -97,11 +100,13 @@ if (!place_meeting(x, y + 1, oWall))
 	}
 	
 }
-
+#endregion
 //show_debug_message(hsp)
 
 
 //Flip player
 if (hsp != 0) image_xscale = sign(hsp) * 2;
 //show_debug_message(sign(hsp));
+
+show_debug_message(canjump)
 #endregion
