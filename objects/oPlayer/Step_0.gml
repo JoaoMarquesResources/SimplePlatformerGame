@@ -45,6 +45,13 @@ if (canjump > 0) && (key_jump)
 {
 	vsp = -7;
 	canjump = 0;
+	repeat(5)
+	{
+		with (instance_create_layer(x, bbox_bottom, "Bullets", oDust))
+		{
+			vsp = 0;
+		}
+	}
 }
 
 //Horizontal Collision
@@ -115,5 +122,5 @@ if (!place_meeting(x, y + 1, oWall))
 if (hsp != 0) image_xscale = sign(hsp) * 2;
 //show_debug_message(sign(hsp));
 
-show_debug_message(canjump)
+//show_debug_message(canjump)
 #endregion
