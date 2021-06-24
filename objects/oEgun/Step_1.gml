@@ -32,4 +32,4 @@ if (instance_exists(oPlayer))
 	}
 }
 
-show_debug_message(image_angle);
+//show_debug_message(image_angle);

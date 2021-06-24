@@ -42,3 +42,5 @@ if (image_index < 6)
 {
 	image_index += 0.4
 }
+
+show_debug_message(image_angle);

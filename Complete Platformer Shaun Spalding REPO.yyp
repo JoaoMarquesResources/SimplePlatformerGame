@@ -43,6 +43,7 @@
     {"id":{"name":"oEbullet","path":"objects/oEbullet/oEbullet.yy",},"order":21,},
     {"id":{"name":"oHitSpark","path":"objects/oHitSpark/oHitSpark.yy",},"order":18,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":6,},
+    {"id":{"name":"rThree","path":"rooms/rThree/rThree.yy",},"order":3,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":3,},
     {"id":{"name":"oEgun","path":"objects/oEgun/oEgun.yy",},"order":20,},
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":1,},
@@ -80,6 +81,7 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
+    {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

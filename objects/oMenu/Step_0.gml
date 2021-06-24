@@ -57,6 +57,7 @@ if (menu_x > gui_widht + 150) && (menu_committed != -1) //Se a opção q selecio
 			{
 				var file = file_text_open_read(SAVEFILE);
 				var target = file_text_read_real(file);
+				global.kills = file_text_read_real(file);
 				file_text_close(file);
 				SlideTransition(TRANS_MODE.GOTO, target);
 			}

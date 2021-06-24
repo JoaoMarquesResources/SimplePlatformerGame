@@ -124,3 +124,5 @@ if (hsp != 0) image_xscale = sign(hsp) * 2;
 
 //show_debug_message(canjump)
 #endregion
+
+show_debug_message(image_angle);
