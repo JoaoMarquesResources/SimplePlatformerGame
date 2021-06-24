@@ -27,3 +27,6 @@ for (var i = 0; i < menu_items; i++)
 	draw_set_color(col);
 	draw_text(xx, yy, txt);
 }
+
+draw_set_color(c_black);
+draw_rectangle(gui_widht, gui_height - 200, gui_widht + 900, gui_height, false);
