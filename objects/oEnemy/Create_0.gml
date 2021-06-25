@@ -5,7 +5,7 @@ image_yscale = image_xscale;
 
 if (hasweapon)
 {
-	mygun = instance_create_layer(x, y, "Gun", oEgun);
+	mygun = instance_create_layer(x, y, "Egun", oEgun);
 	with(mygun)
 	{
 		owner = other.id;//owner = este oEnemy instance id
