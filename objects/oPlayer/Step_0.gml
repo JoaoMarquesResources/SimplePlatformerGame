@@ -36,9 +36,11 @@ if (hascontrol)
 #region //Calculate Movement
 var move = key_right - key_left;
 
-hsp = move * walksp;
+hsp = (move * walksp) + gunKickx;
+gunKickx = 0;
 
-vsp = vsp + grv;
+vsp = (vsp + grv) + gunKicky;
+gunKicky = 0;
 
 canjump -= 1;
 if (canjump > 0) && (key_jump)
