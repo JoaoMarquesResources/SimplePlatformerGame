@@ -6,7 +6,7 @@ if (hascontrol)
 {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-	key_jump = keyboard_check_pressed(vk_space) || keyboard_check(ord("W"));
+	key_jump = keyboard_check_pressed(vk_space);
 
 	if (key_left) || (key_right) || (key_jump)
 	{

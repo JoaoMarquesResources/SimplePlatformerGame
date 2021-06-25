@@ -28,7 +28,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0, gp_shoulderrb))&& (
 	ScreenShake(2, 10);
 	audio_sound_pitch(snLanding, choose(0.8, 1, 1.2));
 	audio_play_sound(snShoot, 5, false);
-	with (instance_create_layer(x+10, y, "Bullets", oBullet))
+	with (instance_create_layer(x + lengthdir_x(15, point_direction(x, y, mouse_x, mouse_y)), y + lengthdir_y(15, point_direction(x, y, mouse_x, mouse_y)), "Bullets", oBullet))
 	{
 		spd = 25;
 		direction = other.image_angle + random_range(-3, 3)
