@@ -39,6 +39,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0, gp_shoulderrb))&& (
 	{
 		gunKickx = lengthdir_x(1.5, other.image_angle - 180);
 		gunKicky = lengthdir_y(1, other.image_angle - 180);
+		//show_message(gunKickx);
 	}
 }
 

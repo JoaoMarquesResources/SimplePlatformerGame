@@ -17,3 +17,12 @@ if (point_in_circle(oPlayer.x, oPlayer.y, x, y, 64)) && (!instance_exists(oText)
 		}
 	}
 }else nearby = false;
+
+if (nearby)
+{
+	if (!instance_exists(oMarker))
+	instance_create_layer(x, y - 32, "Enteties", oMarker);
+}else
+{
+	instance_destroy(oMarker);
+}

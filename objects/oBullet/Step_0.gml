@@ -24,5 +24,5 @@ if (place_meeting(x, y, oWall)) && (image_index != 0)
 	spd = 0;
 	instance_change(oHitSpark, true);
 	layer_add_instance("Tiles", id);
-	depth += 2;
+	depth += 1;
 }

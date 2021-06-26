@@ -121,8 +121,7 @@ if (!place_meeting(x, y + 1, oWall))
 
 
 //Flip player
-if (hsp != 0) image_xscale = sign(hsp) * 2;
-//show_debug_message(sign(hsp));
+image_xscale = sign(mouse_x - x) * 2;
 
 //show_debug_message(canjump)
 #endregion
